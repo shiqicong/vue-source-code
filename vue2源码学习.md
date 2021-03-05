@@ -23,7 +23,7 @@
     packages  打包之后的  基于leran多包管理工具  可以单独拿出来发布的包 运用了node.js的VM(虚拟机)
               vue SSR =>vue-server-renderer=>js=>VM
     scripts 打包脚本 不一样的脚本打成不一样的包
-    src 核心代码 （不同端的代码）
+    src 核心代码 
         compiler 编译模版 离线编译的代码 把vue代码编译成js 
         core Vue.js的核心 
             components:keep-alive的实现
@@ -45,6 +45,11 @@
 ```
 ## vue  双向数据绑定
 ```
+![Image text](https://github.com/shiqicong/vue-source-code/blob/master/learn-imgs/data-bind.png)
     observer:对数据做监听
 ```
 ## Virtual-dom 虚拟dom
+## diff算法
+## 整体流程
+## 运行时优化
+## 前端技术框架选型
